@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Exploits Collection (30 vulnerability types)",
+    "passed": true,
+    "score": 0,
+    "riskLevel": "Critical",
+    "issues": 42,
+    "critical": 22,
+    "high": 16,
+    "duration": 56
+  },
+  {
+    "name": "Malicious: malicious-1-backdoor.js",
+    "passed": true,
+    "score": 58,
+    "riskLevel": "High",
+    "issues": 5,
+    "critical": 2,
+    "high": 2,
+    "duration": 9
+  },
+  {
+    "name": "Malicious: malicious-2-data-theft.js",
+    "passed": true,
+    "score": 43,
+    "riskLevel": "High",
+    "issues": 6,
+    "critical": 3,
+    "high": 3,
+    "duration": 4
+  },
+  {
+    "name": "Malicious: malicious-3-sql-injection.js",
+    "passed": true,
+    "score": 16,
+    "riskLevel": "Critical",
+    "issues": 10,
+    "critical": 4,
+    "high": 4,
+    "duration": 5
+  },
+  {
+    "name": "Malicious: malicious-4-prototype-pollution.js",
+    "passed": true,
+    "score": 69,
+    "riskLevel": "High",
+    "issues": 3,
+    "critical": 2,
+    "high": 1,
+    "duration": 6
+  },
+  {
+    "name": "Malicious: malicious-5-xss-rce.js",
+    "passed": true,
+    "score": 0,
+    "riskLevel": "Critical",
+    "issues": 17,
+    "critical": 12,
+    "high": 3,
+    "duration": 10
+  },
+  {
+    "name": "Safe: safe-1-basic.js",
+    "passed": true,
+    "score": 50,
+    "riskLevel": "High",
+    "issues": 5,
+    "critical": 3,
+    "high": 2,
+    "duration": 8
+  },
+  {
+    "name": "Safe: safe-2-secure-api.js",
+    "passed": true,
+    "score": 73,
+    "riskLevel": "Moderate",
+    "issues": 4,
+    "critical": 1,
+    "high": 2,
+    "duration": 11
+  },
+  {
+    "name": "Safe: safe-3-react-component.tsx",
+    "passed": true,
+    "score": 96,
+    "riskLevel": "Low",
+    "issues": 1,
+    "critical": 0,
+    "high": 0,
+    "duration": 24
+  },
+  {
+    "name": "Edge: Empty String",
+    "passed": true,
+    "error": "Code input is empty."
+  },
+  {
+    "name": "Edge: Null Bytes",
+    "passed": true,
+    "error": "Code contains null bytes."
+  },
+  {
+    "name": "Edge: Only Comments",
+    "passed": true,
+    "score": 100,
+    "issues": 0
+  },
+  {
+    "name": "Edge: Unicode Characters",
+    "passed": true,
+    "score": 99,
+    "issues": 1
+  },
+  {
+    "name": "Edge: Very Long Line",
+    "passed": true,
+    "score": 100,
+    "issues": 0
+  },
+  {
+    "name": "Performance Test",
+    "passed": true,
+    "avgTime": 1,
+    "minTime": 0,
+    "maxTime": 23
+  }
+]

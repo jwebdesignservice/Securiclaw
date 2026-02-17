@@ -1,0 +1,10 @@
+# After creating the repo on GitHub, run these commands:
+
+# Set your GitHub username (replace YOUR_USERNAME)
+git remote add origin https://github.com/YOUR_USERNAME/Securiclaw.git
+
+# Push code to GitHub
+git branch -M main
+git push -u origin main
+
+# That's it! Your code is now on GitHub.
